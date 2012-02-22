@@ -15,6 +15,14 @@
 		2B47EBEA14F2780E00371407 /* GHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EBE914F2780E00371407 /* GHAppDelegate.m */; };
 		2B47EBED14F2780E00371407 /* GHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EBEC14F2780E00371407 /* GHViewController.m */; };
 		2B47EBF014F2780E00371407 /* GHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B47EBEE14F2780E00371407 /* GHViewController.xib */; };
+		2B47EBFC14F27A3A00371407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EBD914F2780E00371407 /* UIKit.framework */; };
+		2B47EBFD14F27A3A00371407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EBDB14F2780E00371407 /* Foundation.framework */; };
+		2B47EBFE14F27A3A00371407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EBDD14F2780E00371407 /* CoreGraphics.framework */; };
+		2B47EC0414F27A3A00371407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B47EC0214F27A3A00371407 /* InfoPlist.strings */; };
+		2B47EC1514F27B8700371407 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EC1414F27B8700371407 /* GHUnitIOS.framework */; };
+		2B47EC1714F27F8100371407 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EC1614F27F8100371407 /* GHUnitIOSTestMain.m */; };
+		2B47EC1A14F47A2B00371407 /* SampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EC1914F47A2B00371407 /* SampleTestCase.m */; };
+		2B47EC3C14F4859900371407 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EC3B14F4859900371407 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +30,29 @@
 		2B47EBD914F2780E00371407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B47EBDB14F2780E00371407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B47EBDD14F2780E00371407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B47EBE114F2780E00371407 /* GHCount-Info.plist */ = {isa = PBXFileReference; path = "GHCount-Info.plist"; sourceTree = "<group>"; };
+		2B47EBE114F2780E00371407 /* GHCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHCount-Info.plist"; sourceTree = "<group>"; };
 		2B47EBE314F2780E00371407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B47EBE514F2780E00371407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B47EBE714F2780E00371407 /* GHCount-Prefix.pch */ = {isa = PBXFileReference; path = "GHCount-Prefix.pch"; sourceTree = "<group>"; };
-		2B47EBE814F2780E00371407 /* GHAppDelegate.h */ = {isa = PBXFileReference; path = GHAppDelegate.h; sourceTree = "<group>"; };
+		2B47EBE714F2780E00371407 /* GHCount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHCount-Prefix.pch"; sourceTree = "<group>"; };
+		2B47EBE814F2780E00371407 /* GHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAppDelegate.h; sourceTree = "<group>"; };
 		2B47EBE914F2780E00371407 /* GHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAppDelegate.m; sourceTree = "<group>"; };
-		2B47EBEB14F2780E00371407 /* GHViewController.h */ = {isa = PBXFileReference; path = GHViewController.h; sourceTree = "<group>"; };
+		2B47EBEB14F2780E00371407 /* GHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHViewController.h; sourceTree = "<group>"; };
 		2B47EBEC14F2780E00371407 /* GHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHViewController.m; sourceTree = "<group>"; };
 		2B47EBEF14F2780E00371407 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GHViewController.xib; sourceTree = "<group>"; };
+		2B47EBFA14F27A3A00371407 /* GHCountTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHCountTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B47EC0114F27A3A00371407 /* GHCountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHCountTests-Info.plist"; sourceTree = "<group>"; };
+		2B47EC0314F27A3A00371407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B47EC0714F27A3A00371407 /* GHCountTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHCountTests-Prefix.pch"; sourceTree = "<group>"; };
+		2B47EC1414F27B8700371407 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../GHUnitIOS.framework; sourceTree = "<group>"; };
+		2B47EC1614F27F8100371407 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUnitIOSTestMain.m; path = "../../git/gh-unit/Tests/GHUnitIOSTestMain.m"; sourceTree = "<group>"; };
+		2B47EC1914F47A2B00371407 /* SampleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTestCase.m; sourceTree = "<group>"; };
+		2B47EC3514F4859900371407 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		2B47EC3614F4859900371407 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		2B47EC3714F4859900371407 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		2B47EC3814F4859900371407 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		2B47EC3914F4859900371407 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		2B47EC3A14F4859900371407 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		2B47EC3B14F4859900371407 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +66,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B47EBF714F27A3A00371407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47EC1514F27B8700371407 /* GHUnitIOS.framework in Frameworks */,
+				2B47EBFC14F27A3A00371407 /* UIKit.framework in Frameworks */,
+				2B47EBFD14F27A3A00371407 /* Foundation.framework in Frameworks */,
+				2B47EBFE14F27A3A00371407 /* CoreGraphics.framework in Frameworks */,
+				2B47EC3C14F4859900371407 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2B47EBCA14F2780E00371407 = {
 			isa = PBXGroup;
 			children = (
+				2B47EC3214F4859900371407 /* Libraries */,
+				2B47EC1414F27B8700371407 /* GHUnitIOS.framework */,
 				2B47EBDF14F2780E00371407 /* GHCount */,
+				2B47EBFF14F27A3A00371407 /* GHCountTests */,
 				2B47EBD814F2780E00371407 /* Frameworks */,
 				2B47EBD614F2780E00371407 /* Products */,
 			);
@@ -60,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2B47EBD514F2780E00371407 /* GHCount.app */,
+				2B47EBFA14F27A3A00371407 /* GHCountTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +136,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2B47EBFF14F27A3A00371407 /* GHCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B47EC0014F27A3A00371407 /* Supporting Files */,
+				2B47EC1914F47A2B00371407 /* SampleTestCase.m */,
+			);
+			path = GHCountTests;
+			sourceTree = "<group>";
+		};
+		2B47EC0014F27A3A00371407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B47EC1614F27F8100371407 /* GHUnitIOSTestMain.m */,
+				2B47EC0114F27A3A00371407 /* GHCountTests-Info.plist */,
+				2B47EC0214F27A3A00371407 /* InfoPlist.strings */,
+				2B47EC0714F27A3A00371407 /* GHCountTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B47EC3214F4859900371407 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2B47EC3314F4859900371407 /* Headers */,
+				2B47EC3B14F4859900371407 /* libOCMock.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		2B47EC3314F4859900371407 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2B47EC3414F4859900371407 /* OCMock */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2B47EC3414F4859900371407 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				2B47EC3514F4859900371407 /* NSNotificationCenter+OCMAdditions.h */,
+				2B47EC3614F4859900371407 /* OCMArg.h */,
+				2B47EC3714F4859900371407 /* OCMConstraint.h */,
+				2B47EC3814F4859900371407 /* OCMock.h */,
+				2B47EC3914F4859900371407 /* OCMockObject.h */,
+				2B47EC3A14F4859900371407 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +204,23 @@
 			name = GHCount;
 			productName = GHCount;
 			productReference = 2B47EBD514F2780E00371407 /* GHCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B47EBF914F27A3A00371407 /* GHCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B47EC1114F27A3A00371407 /* Build configuration list for PBXNativeTarget "GHCountTests" */;
+			buildPhases = (
+				2B47EBF614F27A3A00371407 /* Sources */,
+				2B47EBF714F27A3A00371407 /* Frameworks */,
+				2B47EBF814F27A3A00371407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHCountTests;
+			productName = GHCountTests;
+			productReference = 2B47EBFA14F27A3A00371407 /* GHCountTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				2B47EBD414F2780E00371407 /* GHCount */,
+				2B47EBF914F27A3A00371407 /* GHCountTests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +259,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B47EBF814F27A3A00371407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47EC0414F27A3A00371407 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -163,6 +277,15 @@
 				2B47EBE614F2780E00371407 /* main.m in Sources */,
 				2B47EBEA14F2780E00371407 /* GHAppDelegate.m in Sources */,
 				2B47EBED14F2780E00371407 /* GHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B47EBF614F27A3A00371407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47EC1714F27F8100371407 /* GHUnitIOSTestMain.m in Sources */,
+				2B47EC1A14F47A2B00371407 /* SampleTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +306,14 @@
 				2B47EBEF14F2780E00371407 /* en */,
 			);
 			name = GHViewController.xib;
+			sourceTree = "<group>";
+		};
+		2B47EC0214F27A3A00371407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B47EC0314F27A3A00371407 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,6 +384,60 @@
 			};
 			name = Release;
 		};
+		2B47EC1214F27A3A00371407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHCountTests/GHCountTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "GHCountTests/GHCountTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries/**",
+					"$(inherited)",
+					"\"$(SRCROOT)/../git/ocmock/Examples/iPhoneExample/Libraries\"",
+					"\"$(SRCROOT)/GHCountTests/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B47EC1314F27A3A00371407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHCountTests/GHCountTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "GHCountTests/GHCountTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries/**",
+					"$(inherited)",
+					"\"$(SRCROOT)/../git/ocmock/Examples/iPhoneExample/Libraries\"",
+					"\"$(SRCROOT)/GHCountTests/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +455,14 @@
 			buildConfigurations = (
 				2B47EBF414F2780E00371407 /* Debug */,
 				2B47EBF514F2780E00371407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B47EC1114F27A3A00371407 /* Build configuration list for PBXNativeTarget "GHCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B47EC1214F27A3A00371407 /* Debug */,
+				2B47EC1314F27A3A00371407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
